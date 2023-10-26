@@ -1,0 +1,187 @@
+.bgbody{
+    background-color: #173838;
+}
+.bgindice{
+    background-color: #13454b;
+}
+#color{
+    color: whitesmoke;
+}
+#color:hover{
+    color: #467a80;
+}
+#color2{
+    color: #ffffff;
+    background-color: #467a80;
+}
+#color2:hover{
+    background-color: #467a80;
+}
+.cuerpo{
+    background-image:url(/IMG/portadai.png);
+    height: 80cqb;
+    background-repeat: no-repeat;
+    background-size: 220cqb;
+}
+.cuerpo3{
+    background-image:url(/IMG/portadao.png);
+    height: 80cqb;
+    background-repeat: no-repeat;
+    background-size: 220cqb;
+}
+.cuerpo6{
+    background-image:url(/IMG/ey.png);
+    height: 90cqb;
+    background-repeat: no-repeat;
+    background-size: 220cqb;
+}
+.cuerpo4{
+    background-image:url(/IMG/portadaan.png);
+    height: 70cqb;
+    background-repeat: no-repeat;
+    background-size: 220cqb;
+}
+.cuerpo5{
+    background-image:url(/IMG/portadaan.png);
+    height: 80cqb;
+    background-repeat: no-repeat;
+    background-size: 220cqb;
+}
+.cuerpo2{
+    background-image:url(/IMG/ey.png);
+    height: 80cqb;
+    background-repeat: no-repeat;
+    background-size: 220cqb;
+}
+.titulosy{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    padding: 10px;
+    margin: 20px;
+
+}
+.titulosy5{
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    padding: 10px;
+    margin: 20px;
+
+}
+.origen{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: azure;
+    padding: 10px;
+    margin: 20px;
+}
+.text{
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 10px;
+    margin: 20px;
+
+}
+.cool{
+    background-color: #2c585e;
+}
+.foter{
+    color: azure;
+}
+.divcentro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.divcentro2{
+    display: inline-block;
+    vertical-align: top;
+}
+.mg{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.container{
+    display: flex;
+}
+.cardr{
+    width: auto;
+    height: auto;
+    background: rgb(58, 104, 97);
+    box-shadow: 5px 5px 10px rgb(18, 80, 70);
+    border-radius: 5px;
+    margin: 5px;
+}
+.cardr-title{
+    margin: 20px;
+    padding-top: 10PX;
+}
+.cardr-body{
+    padding: 5px;
+    margin: 20px;
+}
+.cardr-image{
+    display: flex;
+    justify-content: center;
+}
+.cardr-image img{
+    width: 40%;
+}
+.alone{
+    float: left;
+    margin-right: 20px;
+    width: 500px;
+    height: 500px;
+}
+.alone2{
+    float: right;
+    margin-right: 20px;
+    width: 500px;
+    height: 500px;
+}
+.alone3{
+    float: right;
+    margin-right: 20px; 
+}
+.alone4{
+    flex-wrap: wrap;
+    float: left;
+    width: 300px;
+    height: 70cm;
+}
+/* Para dispositivos móviles con un ancho de pantalla de hasta 768 píxeles */
+@media only screen and (max-width: 768px) {
+    /* Ajusta el tamaño de la fuente y los márgenes según sea necesario para dispositivos móviles */
+    .origen {
+      font-size: 24px;
+    }
+  
+    .text2 {
+      font-size: 16px;
+    }
+  
+    /* Asegúrate de ajustar los tamaños de los elementos y los márgenes para que se vean correctamente en dispositivos móviles */
+    .banner__text {
+      width: 100%;
+    }
+  
+    .alone {
+      text-align: center;
+    }
+  }
+  
