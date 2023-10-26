@@ -41,6 +41,12 @@
     background-repeat: no-repeat;
     background-size: 220cqb;
 }
+.cuerpo54{
+    background-image:url(/IMG/portadaent.png);
+    height: 70cqb;
+    background-repeat: no-repeat;
+    background-size: 220cqb;
+}
 .cuerpo44{
     background-image:url(/IMG/lab1.jpg);
     height: 70cqb;
@@ -200,6 +206,9 @@
   
     .alone {
       text-align: center;
+    }
+    .cuerpo44{
+        width: 100%;
     }
   }
   
