@@ -162,7 +162,7 @@
     flex-wrap: wrap;
     float: left;
     width: 300px;
-    height: 70cm;
+    height: 55cm;
 }
 /* Para dispositivos móviles con un ancho de pantalla de hasta 768 píxeles */
 @media only screen and (max-width: 768px) {
